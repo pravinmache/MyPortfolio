@@ -1,0 +1,137 @@
+
+
+body{
+	
+margin:0;
+background-color:#ddd;
+}
+
+html{
+	
+font-family:'Lato', Verdana;
+
+}
+
+
+
+
+#intro{
+	background-color: #2098D1;
+	color:white;
+	text-align:center;
+	padding:10vw 0;
+	
+}
+
+.navbar-custom{
+	
+	background-color: #2098D1;
+	color:white;
+	border-radius:0;
+	font-size:20px;
+	font-family:'Lato', Verdana;
+	margin-bottom:0;
+	padding: 0 10vw;
+
+}
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
+    background-color: #2098D1;
+    color: #FFf;
+    border:1px dotted white;
+  
+
+}
+
+.navbar-custom .navbar-brand {
+    color:white;
+    font-family:'Lato', Verdana;
+    font-size:30px;
+}
+.navbar-custom .navbar-toggle {
+    background-color:white;
+
+}
+.navbar-custom .icon-bar {
+    background-color:#2098D1;
+}
+
+.navbar-custom .navbar-brand:hover{
+	
+
+
+}
+
+#skills span{
+	
+	font-size:18px;
+
+}
+
+
+#intro p{
+	
+	font-size:1.8em;
+
+}
+
+#pravin{
+	
+
+	border:1px solid grey;
+	border-radius:50%;
+	padding: 3px;
+
+}
+
+
+
+#brief{
+	padding-top:60px;
+	font-size:20px;
+	text-align:justify;
+
+
+
+}
+
+#skills img{
+	max-width:120px;
+	height:auto;
+	margin:auto;
+
+		
+}
+
+
+@media screen and (max-width: 500px) {
+    .navbar-custom{
+        padding:0;
+
+    }
+
+    .navbar-custom .navbar-brand {
+    color:white;
+    font-family:'Lato', Verdana;
+    font-size:24px;
+}
+	#intro{
+		padding-top:50px;
+
+	}
+
+	#brief{
+		
+		padding-top:0;
+		font-size:16px;
+		}
+}
+
