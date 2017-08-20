@@ -4,6 +4,7 @@ body{
 	
 margin:0;
 background-color:#ddd;
+position:relative;
 }
 
 html{
@@ -70,6 +71,14 @@ font-family:'Lato', Verdana;
 
 }
 
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus{
+	
+	text-decoration:underline;
+
+}
+
+
 #skills span{
 	
 	font-size:18px;
@@ -111,8 +120,47 @@ font-family:'Lato', Verdana;
 		
 }
 
+	
 
-@media screen and (max-width: 500px) {
+
+.portfolio-object{
+	color:#fff;
+	padding:10px;
+	
+	background-color:black;
+	margin-bottom:20px;
+	box-shadow:0 0 8px 3px #555;
+	border-radius:5px;
+
+}
+
+
+
+.icon{
+	
+	margin:5px;
+	width:32px;
+	height:auto;
+
+
+}
+
+
+.text-box{
+		
+		height:60px;
+
+}
+#Contact{
+	
+	height:300px;
+
+}
+
+
+
+@media screen and (max-width: 500px){
+    
     .navbar-custom{
         padding:0;
 
@@ -135,3 +183,8 @@ font-family:'Lato', Verdana;
 		}
 }
 
+
+
+ iframe::-webkit-scrollbar { 
+    width:0; 
+}
